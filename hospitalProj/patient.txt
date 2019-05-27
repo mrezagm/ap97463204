@@ -1,0 +1,4 @@
+omid,raghibi,male,1234,mariz,1,1,1,false
+negin,azargoshasb,female,4321,ravaniii,1,6,1,false
+reza,shakeri,male,8977,cold,1,3,2,false
+siavash,mihan,male,89,ill,3,65,1,false

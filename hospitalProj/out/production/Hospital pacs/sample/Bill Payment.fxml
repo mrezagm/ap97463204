@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Bill_Pym_Controller">
+   <children>
+      <Label layoutX="95.0" layoutY="105.0" text="Name:" />
+      <Label layoutX="429.0" layoutY="105.0" text="Family:" />
+      <TextField fx:id="Name_txt" layoutX="148.0" layoutY="101.0" />
+      <TextField fx:id="Family_txt" layoutX="479.0" layoutY="101.0" />
+      <Button fx:id="Pay_Button" layoutX="295.0" layoutY="243.0" mnemonicParsing="false" onAction="#setPay_Button" text="Pay" />
+      <Button fx:id="Home_Page_Button" layoutX="342.0" layoutY="243.0" mnemonicParsing="false" onAction="#setHome_Page_Button" text="Home Page" />
+      <Label fx:id="lbl" layoutX="100.0" layoutY="152.0" prefHeight="58.0" prefWidth="540.0" text="#" />
+      <Label layoutX="312.0" layoutY="14.0" text="Bill Payment" textFill="#d52929" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
